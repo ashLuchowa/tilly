@@ -7,14 +7,21 @@ button {
     cursor: pointer;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 // TABLE CONTAINER
 .main-container {
-    background-color: white;
+    display: grid;
+    height: 100vh;
+    background-color: red;
 
     .container-row {
-        background-color: aqua;
         div {
             button {
+                height: 100%;
                 background-color: rgb(237, 237, 237);
                 width: 100%;
                 &:hover {

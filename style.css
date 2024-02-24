@@ -6,13 +6,18 @@ button {
   cursor: pointer;
 }
 
-.main-container {
-  background-color: white;
+* {
+  padding: 0;
+  margin: 0;
 }
-.main-container .container-row {
-  background-color: aqua;
+
+.main-container {
+  display: grid;
+  height: 100vh;
+  background-color: red;
 }
 .main-container .container-row div button {
+  height: 100%;
   background-color: rgb(237, 237, 237);
   width: 100%;
 }
