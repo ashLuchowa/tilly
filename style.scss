@@ -3,6 +3,10 @@ body {
     background-color: black;
 }
 
+button {
+    cursor: pointer;
+}
+
 // TABLE CONTAINER
 .main-container {
     background-color: white;
@@ -13,6 +17,9 @@ body {
             button {
                 background-color: rgb(237, 237, 237);
                 width: 100%;
+                &:hover {
+                    background-color: rgb(192, 192, 192);
+                }
             }
         }
     }
