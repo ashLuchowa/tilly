@@ -1,0 +1,30 @@
+// GENERAL
+body {
+    background-color: black;
+}
+
+// TABLE CONTAINER
+.main-container {
+    background-color: white;
+
+    .container-row {
+        background-color: aqua;
+        div {
+            button {
+                background-color: rgb(237, 237, 237);
+                width: 100%;
+            }
+        }
+    }
+
+    .container-row-first {
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr 1fr;
+    }
+
+    .container-row-second {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
+

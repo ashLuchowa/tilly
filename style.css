@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+.main-container {
+  background-color: white;
+}
+.main-container .container-row {
+  background-color: aqua;
+}
+.main-container .container-row div button {
+  background-color: rgb(237, 237, 237);
+  width: 100%;
+}
+.main-container .container-row-first {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+}
+.main-container .container-row-second {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}/*# sourceMappingURL=style.css.map */
