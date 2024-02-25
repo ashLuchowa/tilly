@@ -14,7 +14,7 @@ button {
 .main-container {
   display: grid;
   height: 100vh;
-  background-color: red;
+  background-color: rgb(255, 51, 29);
   grid-template-rows: repeat(10, 1fr);
 }
 .main-container .container-row div button {
@@ -26,24 +26,22 @@ button {
   width: 100%;
 }
 .main-container .container-row div button:hover {
-  filter: contrast(150%);
+  filter: contrast(400%);
 }
 .main-container .container-row div button .link {
-  background-color: red;
+  background-color: rgb(255, 51, 29);
   height: 100px;
   width: 100px;
 }
-.main-container .container-row div .active {
-  background-color: rgb(66, 190, 50);
-}
 .main-container .container-row div .menu-btn {
   background-color: black;
-  color: white;
 }
 .main-container .container-row div .submenu-btn-row-first {
+  text-transform: uppercase;
   background-color: rgb(255, 51, 29);
 }
 .main-container .container-row div .submenu-btn-row-second {
+  text-transform: uppercase;
   background-color: rgb(166, 48, 1);
 }
 .main-container .container-row div #barcode-btn {
@@ -53,6 +51,17 @@ button {
 .main-container .container-row div .misc-btn {
   background-color: rgb(255, 208, 0);
   color: black;
+}
+.main-container .container-row div .category {
+  text-transform: uppercase;
+}
+.main-container .container-row div .active {
+  background-color: rgb(66, 190, 50);
+  color: rgb(255, 208, 0);
+  text-transform: uppercase;
+}
+.main-container .container-row div .item-pg-3 {
+  background-color: rgb(1, 115, 221);
 }
 .main-container .container-row-first {
   display: grid;

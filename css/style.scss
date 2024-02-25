@@ -1,4 +1,4 @@
-// GENERAL
+//------ General ------//
 body {
     background-color: black;
 }
@@ -12,50 +12,78 @@ button {
     margin: 0;
 }
 
-// TABLE CONTAINER
+//------ Variables ------//
+$primary-color: rgb(130, 72, 146);
+$primary-color-text: white;
+$secondary-color: rgb(255, 51, 29);
+$secondary-color-text: black;
+$black-bg: black;
+$tertiary-color: rgb(166, 48, 1);
+$barcode-color: rgb(0, 191, 255);
+$misc-color: rgb(255, 208, 0);
+$active-color: rgb(66, 190, 50);
+$page3-btn-color: rgb(1, 115, 221);
+
+
+//------ Mixins ------//
+@mixin button-styles($background-color, $text-color) {
+    color: $text-color;
+    font-weight: 700;
+    text-align: center;
+    background-color: $background-color;
+    height: 100%;
+    width: 100%;
+    &:hover {
+        filter: contrast(400%);
+    }
+    .link {
+        background-color: $secondary-color;
+        height: 100px;
+        width: 100px;
+    } 
+}
+
+
+//------ Container ------//
 .main-container {
     display: grid;
     height: 100vh;
-    background-color: red;
+    background-color: $secondary-color;
 
     .container-row {
         div {
             button {
-                color: white;
-                font-weight: 700;
-                text-align: center;
-                background-color: rgb(130, 72, 146);
-                height: 100%;
-                width: 100%;
-                &:hover {
-                    filter: contrast(150%);
-                }
-                .link {
-                    background-color: red;
-                    height: 100px;
-                    width: 100px;
-                }
-            }
-            .active {
-                background-color: rgb(66, 190, 50);
+                @include button-styles($primary-color, $primary-color-text);
             }
             .menu-btn {
-                background-color: black;
-                color: white;
+                background-color: $black-bg;
             }
             .submenu-btn-row-first {
-                background-color: rgb(255, 51, 29);
+                text-transform: uppercase;
+                background-color: $secondary-color;
             }
             .submenu-btn-row-second {
-                background-color: rgb(166, 48, 1);
+                text-transform: uppercase;
+                background-color: $tertiary-color;
             }
             #barcode-btn {
-                background-color: rgb(0, 191, 255);
-                color: black;
+                background-color: $barcode-color;
+                color: $secondary-color-text;
             }
             .misc-btn {
-                background-color: rgb(255, 208, 0);
-                color: black;
+                background-color: $misc-color;
+                color: $secondary-color-text;
+            }
+            .category {
+                text-transform: uppercase;
+            }
+            .active {
+                background-color: $active-color;
+                color: $misc-color;
+                text-transform: uppercase;
+            }
+            .item-pg-3 {
+                background-color: $page3-btn-color;
             }
         }
     }
