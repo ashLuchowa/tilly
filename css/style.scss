@@ -23,6 +23,7 @@ button {
             button {
                 color: white;
                 font-weight: 700;
+                text-align: center;
                 background-color: rgb(130, 72, 146);
                 height: 100%;
                 width: 100%;
@@ -73,4 +74,5 @@ button {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
     }
+    grid-template-rows: repeat(10, 1fr);
 }

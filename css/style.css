@@ -15,10 +15,12 @@ button {
   display: grid;
   height: 100vh;
   background-color: red;
+  grid-template-rows: repeat(10, 1fr);
 }
 .main-container .container-row div button {
   color: white;
   font-weight: 700;
+  text-align: center;
   background-color: rgb(130, 72, 146);
   height: 100%;
   width: 100%;
