@@ -17,12 +17,14 @@ button {
   background-color: red;
 }
 .main-container .container-row div button {
-  background-color: rgb(237, 237, 237);
+  color: white;
+  font-weight: 700;
+  background-color: rgb(130, 72, 146);
   height: 100%;
   width: 100%;
 }
 .main-container .container-row div button:hover {
-  background-color: rgb(192, 192, 192);
+  filter: contrast(150%);
 }
 .main-container .container-row div button .link {
   background-color: red;
@@ -30,7 +32,25 @@ button {
   width: 100px;
 }
 .main-container .container-row div .active {
-  background-color: rgb(157, 157, 157);
+  background-color: rgb(66, 190, 50);
+}
+.main-container .container-row div .menu-btn {
+  background-color: black;
+  color: white;
+}
+.main-container .container-row div .submenu-btn-row-first {
+  background-color: rgb(255, 51, 29);
+}
+.main-container .container-row div .submenu-btn-row-second {
+  background-color: rgb(166, 48, 1);
+}
+.main-container .container-row div #barcode-btn {
+  background-color: rgb(0, 191, 255);
+  color: black;
+}
+.main-container .container-row div .misc-btn {
+  background-color: rgb(255, 208, 0);
+  color: black;
 }
 .main-container .container-row-first {
   display: grid;
