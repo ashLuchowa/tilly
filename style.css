@@ -24,6 +24,9 @@ button {
 .main-container .container-row div button:hover {
   background-color: rgb(192, 192, 192);
 }
+.main-container .container-row div .active {
+  background-color: rgb(157, 157, 157);
+}
 .main-container .container-row-first {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr 1fr;
