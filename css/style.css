@@ -17,12 +17,17 @@ button {
   background-color: red;
 }
 .main-container .container-row div button {
-  height: 100%;
   background-color: rgb(237, 237, 237);
+  height: 100%;
   width: 100%;
 }
 .main-container .container-row div button:hover {
   background-color: rgb(192, 192, 192);
+}
+.main-container .container-row div button .link {
+  background-color: red;
+  height: 100px;
+  width: 100px;
 }
 .main-container .container-row div .active {
   background-color: rgb(157, 157, 157);
@@ -34,4 +39,8 @@ button {
 .main-container .container-row-second {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+}
+.main-container .container-row-page2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
 }/*# sourceMappingURL=style.css.map */
