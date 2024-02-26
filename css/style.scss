@@ -26,6 +26,7 @@ $page3-btn-color: rgb(1, 115, 221);
 $page5-btn-color: rgb(107, 196, 59);
 $page8-btn-color: rgb(66, 163, 172);
 $page9-btn-color: rgb(98, 53, 9);
+$page10-btn-color: rgb(159, 199, 201);
 
 
 //------ Mixins ------//
@@ -106,6 +107,10 @@ $page9-btn-color: rgb(98, 53, 9);
                 background-color: $page9-btn-color;
                 color: $primary-color-text;
             }
+            .item-pg-10 {
+                background-color: $page10-btn-color;
+                color: $secondary-color-text;
+            }
         }
     }
 
@@ -128,5 +133,6 @@ $page9-btn-color: rgb(98, 53, 9);
     .container-row-page8 {
         grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr;
     }
+    
     grid-template-rows: repeat(10, 1fr);
 }
