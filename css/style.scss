@@ -27,6 +27,7 @@ $page5-btn-color: rgb(107, 196, 59);
 $page8-btn-color: rgb(66, 163, 172);
 $page9-btn-color: rgb(98, 53, 9);
 $page10-btn-color: rgb(159, 199, 201);
+$page11-btn-color: rgb(191, 194, 179);
 
 
 //------ Mixins ------//
@@ -109,6 +110,10 @@ $page10-btn-color: rgb(159, 199, 201);
             }
             .item-pg-10 {
                 background-color: $page10-btn-color;
+                color: $secondary-color-text;
+            }
+            .item-pg-11 {
+                background-color: $page11-btn-color;
                 color: $secondary-color-text;
             }
         }
