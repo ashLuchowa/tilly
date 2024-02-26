@@ -90,6 +90,10 @@ $page5-btn-color: rgb(107, 196, 59);
                 background-color: $page5-btn-color;
                 color: $secondary-color-text;
             }
+            .item-pg-7 {
+                background-color: $active-color;
+                color: $primary-color-text;
+            }
         }
     }
 
@@ -104,8 +108,10 @@ $page5-btn-color: rgb(107, 196, 59);
     }
 
     .container-row-page2 {
-        display: grid;
         grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    }
+    .container-row-page7 {
+        grid-template-columns: repeat(7, 1fr);
     }
     grid-template-rows: repeat(10, 1fr);
 }

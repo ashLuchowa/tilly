@@ -67,6 +67,10 @@ button {
   background-color: rgb(107, 196, 59);
   color: black;
 }
+.main-container .container-row div .item-pg-7 {
+  background-color: rgb(45, 147, 42);
+  color: white;
+}
 .main-container .container-row-first {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr 1fr;
@@ -76,6 +80,8 @@ button {
   grid-template-columns: repeat(7, 1fr);
 }
 .main-container .container-row-page2 {
-  display: grid;
   grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+}
+.main-container .container-row-page7 {
+  grid-template-columns: repeat(7, 1fr);
 }/*# sourceMappingURL=style.css.map */
