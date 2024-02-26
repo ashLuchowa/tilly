@@ -21,8 +21,9 @@ $black-bg: black;
 $tertiary-color: rgb(166, 48, 1);
 $barcode-color: rgb(0, 191, 255);
 $misc-color: rgb(255, 208, 0);
-$active-color: rgb(66, 190, 50);
+$active-color: rgb(45, 147, 42);
 $page3-btn-color: rgb(1, 115, 221);
+$page5-btn-color: rgb(107, 196, 59);
 
 
 //------ Mixins ------//
@@ -84,6 +85,10 @@ $page3-btn-color: rgb(1, 115, 221);
             }
             .item-pg-3 {
                 background-color: $page3-btn-color;
+            }
+            .item-pg-5 {
+                background-color: $page5-btn-color;
+                color: $secondary-color-text;
             }
         }
     }

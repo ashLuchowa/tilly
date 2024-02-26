@@ -56,12 +56,16 @@ button {
   text-transform: uppercase;
 }
 .main-container .container-row div .active {
-  background-color: rgb(66, 190, 50);
+  background-color: rgb(45, 147, 42);
   color: rgb(255, 208, 0);
   text-transform: uppercase;
 }
 .main-container .container-row div .item-pg-3 {
   background-color: rgb(1, 115, 221);
+}
+.main-container .container-row div .item-pg-5 {
+  background-color: rgb(107, 196, 59);
+  color: black;
 }
 .main-container .container-row-first {
   display: grid;
