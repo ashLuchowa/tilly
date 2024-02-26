@@ -53,6 +53,8 @@ button {
   color: black;
 }
 .main-container .container-row div .category {
+  font-size: 30px;
+  color: rgb(255, 208, 0);
   text-transform: uppercase;
 }
 .main-container .container-row div .active {
@@ -71,6 +73,10 @@ button {
   background-color: rgb(45, 147, 42);
   color: white;
 }
+.main-container .container-row div .item-pg-8 {
+  background-color: rgb(66, 163, 172);
+  color: white;
+}
 .main-container .container-row-first {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr 1fr;
@@ -84,4 +90,7 @@ button {
 }
 .main-container .container-row-page7 {
   grid-template-columns: repeat(7, 1fr);
+}
+.main-container .container-row-page8 {
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr;
 }/*# sourceMappingURL=style.css.map */

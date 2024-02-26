@@ -24,6 +24,7 @@ $misc-color: rgb(255, 208, 0);
 $active-color: rgb(45, 147, 42);
 $page3-btn-color: rgb(1, 115, 221);
 $page5-btn-color: rgb(107, 196, 59);
+$page8-btn-color: rgb(66, 163, 172);
 
 
 //------ Mixins ------//
@@ -76,6 +77,8 @@ $page5-btn-color: rgb(107, 196, 59);
                 color: $secondary-color-text;
             }
             .category {
+                font-size: 30px;
+                color: $misc-color;
                 text-transform: uppercase;
             }
             .active {
@@ -92,6 +95,10 @@ $page5-btn-color: rgb(107, 196, 59);
             }
             .item-pg-7 {
                 background-color: $active-color;
+                color: $primary-color-text;
+            }
+            .item-pg-8 {
+                background-color: $page8-btn-color;
                 color: $primary-color-text;
             }
         }
@@ -112,6 +119,9 @@ $page5-btn-color: rgb(107, 196, 59);
     }
     .container-row-page7 {
         grid-template-columns: repeat(7, 1fr);
+    }
+    .container-row-page8 {
+        grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr;
     }
     grid-template-rows: repeat(10, 1fr);
 }
